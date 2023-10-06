@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    background-color: #FCFBFB;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    padding: 50px;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logotipo,
+.itensrodape,
+.sociais {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+footer .menurodape {
+    background-color: #FCFBFB;
+    color: #1a1a1a;
+}
+
+footer .itensrodape a,
+footer .sociais {
+    color: #1a1a1a;
+    font-size: 22px;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.sociais ul li i {
+    font-size: 40px;
+    color: #1a1a1a;
+}
+
+.sociais ul li {
+    display: inline-block;
+}
+
+.localizacao .endereco,
+.localizacao .mapa {
+    width: 49%;
+    display: inline-block;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.endereco h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.endereco p {
+    padding: 20px;
+    line-height: 25px;
+    font-size: 22px;
+}
+
+.localizacao .endereco {
+    margin-top: 65px;
+    float: left;
+}
+
+a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+a {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.btnBlack,
+.btnBlue {
+    color: #FCFBFB;
+    background-color: #1a1a1a;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+
+.btnBlue {
+    background-color: #0303FD;
+}
+
+.maisAtracoes {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.destaque {
+    width: 350px;
+    border-radius: 180px;
+    height: 350px;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    margin: 20px 0;
+}
+
+.destaque.direito {
+    float: right;
+}
+
+.destaque img {
+    min-height: 100%;
+    height: 100%;
+}
+
+.descricao {
+    display: inline-block;
+    width: 800px;
+    font-size: 22px;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: justify;
+    color: #fff;
+}
+
+.descricao h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.projeto1 {
+    background-image: url('../img/casa.png');
+    margin-top: 40px;
+}
+
+.projeto2 {
+    background-image: url('../img/3d.jpg');
+}
+
+.projeto3 {
+    background-image: url('../img/gamer.png');
+}
+
+.projeto4 {
+    background-image: url('../img/drone.jpg');
+}
+
+.projetos {
+    background-size: cover;
+    width: 100%;
+    content: "";
+    background-position: center 33%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -99;
+
+}
+
+.bg {
+    background-color: #1a1a1ad4;
+    display: flex;
+}
+
+.both {
+    clear: both;
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.imagem {
+    float: left;
+    width: 40%;
+}
+
+.imagem img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.praca .descricao {
+    width: 56%;
+}
+
+.praca {
+    background-color: #1A1A1A;
+}
+
+.praca .titulo {
+    color: #fff;
+}
+
+hr {
+    color: #fff;
+    width: 80%;
+}
+
+.stands {
+    color: #fff;
+}
+
+.item {
+    float: left;
+    width: 25%;
+    margin-bottom: 40px;
+    line-height: 22px;
+}
+
+.noticias .imagem {
+    width: 100%;
+}
+
+.noticias h3 {
+    font-weight: bold;
+}
+
+.noticias .item {
+    width: 30%;
+    margin: 1.5%;
+}
+
+.noticias .texto {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.blog {
+    padding: 40px 0;
+}
+
+.maisdoblog {
+    float: right;
+    color: #1A1A1A;
+    font-size: 22px;
+}
+
+.apoio {
+    background-color: #1A1A1A;
+}
+
+.apoio li {
+    background-color: #fff;
+    width: 10%;
+    margin: 3%;
+    display: inline-block;
+}
+
+.apoio li img {
+    width: 100%;
+}
+
+.apoio {
+    color: #fff;
+    padding: 40px 0;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1a1a1a;
+    height: 120px;
+    padding: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .logo {
+    float: left;
+}
+
+header nav ul li {
+    float: left;
+    margin: 20px;
+}
+
+/*professor, se o senhor encontrar esta mensagem em meu código,
+ por favor desconte 0,5 pontos na minha média*/
+section {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header .logo img {
+    margin-top: 10px;
+}
+
+header nav {
+    padding-top: 22px;
+}
+
+.background {
+    background-image: url(../img/home.png);
+    display: block;
+    width: 100%;
+    height: 385px;
+    content: "";
+    background-position: top center;
+    background-repeat: no-repeat;
+    z-index: -99;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.slider {
+    position: relative;
+}
+
+.texto-dir,
+.texto-esq {
+    position: absolute;
+    top: 167px;
+    color: #fff;
+    width: 300px;
+    left: 10%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.texto-esq {
+    right: 10%;
+    left: auto;
+    line-height: 25px;
+    padding-top: 25px;
+}
+
+.texto-esq b {
+    font-weight: 900;
+}
+
+.texto-dir h1 {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.sobre .img,
+.sobre .titulo,
+.sobre p,.btnBlack {
+    float: left;
+}
+
+.sobre p {
+    width: calc(83% - 40px);
+    padding: 0 20px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.sobre .img {
+    width: 17%;
+}
+
+.sobre .img img {
+    width: 100%;
+}
+
+.sobre {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sobre .btnBlack{
+    margin-left: 20px;
+    margin-top: 20px;
+}
